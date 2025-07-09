@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --crm-bg-1: #FAF7F3;
+  --crm-bg-2: #F0E4D3;
+  --crm-bg-3: #DCC5B2;
+  --crm-accent: #D9A299;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
